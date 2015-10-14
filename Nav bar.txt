@@ -1,0 +1,12 @@
+		<section>
+		<div class="menu-bar">
+			<a href="main"><h1>Tara Yuen</h1></a></li>
+			<nav>
+			<ul>
+				<li><a href="about">About</a></li>
+				<li><a href="resume">Resume</a></li>
+				<li><a href="contact">Contact</a></li>
+			</ul>
+			</nav>
+		</div>
+		</section>

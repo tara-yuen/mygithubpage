@@ -1,0 +1,66 @@
+/*EXTRA*/
+		<section class="resume_section">
+			<h1 class="resume_title"> Resume </h1>
+			<div class="resume_skills-wrap">
+				<div class="resume_skills">
+					<h3 class="resume_subtitle"> Technical Skills </h3>
+					<ul class="resume_skills-list">
+						<li>HTML 5</li>
+						<li>CSS 3</li>
+						<li>JavaScript</li>
+					</ul>
+				</div>
+				<div class="resume_skills">
+					<h3 class="resume_sub-title"> Personal Skills </h3>
+					<ul class="resume_skills-list">
+						<li>Public Speaking</li>
+						<li>Punctual</li>
+						<li>Eager to learn new things</li>
+					</ul>
+				</div>
+			</div>
+			<div class="resume__experience-wrap">
+      			<h3> Work Experience </h3>
+        		<div class="resume__card">
+          		<h4 class="resume__card-title"> Rangle.io - Software Developer (CO - OP)</h4>
+          			<div class="resume__card-content">
+            		<p>
+             		During my time at Rangle.io I worked as a member of a SCRUM team responsible for the development of a mobile application experience for a major e-commerce platform. On a weekly basis I was tasked with, and succeed at delivering (conceptualizing, implementing and testing) core application features. Other responsibilities included attending meetings and regularly interacting with clients to ensure the end product was of the highest quality.
+            		</p>
+          			</div>
+       			</div>
+       			<div class="resume__card">
+          		<h4 class="resume__card-title"> EveryBit - Software Developer (CO - OP)</h4>
+          			<div class="resume__card-content">
+           			<p>
+            		Maintained and extended the functionality of the I.CX encrypted messaging web application through the design and implementation of new features as well as periodic regression testing and code review/ refactoring.
+            		Designed the tutorial for the EveryBit.js web encryption platform: http://everybit.com/tutorial.html
+            		Successfully generated media attention for the application during launch period
+            		</p>
+          			</div>
+        		</div>
+        	</div>
+		</section>
+
+/*CSS*/
+.resume__section,
+.contact__section {
+	color: #323232;
+	padding: 0 5% 10%;
+}
+.resume__skills-wrap {
+	display: flex;
+}
+.resume__title,
+.contact__title {
+	font-size: 35px;
+}
+.resume__skills {
+	flex-grow: 1;
+}
+.resume__card {
+	border: 1px solid gray;
+	padding: 3px 10px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
